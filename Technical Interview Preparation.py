@@ -50,9 +50,9 @@ def string_compression(s):
     elif length == 1:
         return s + "1"
     
-    count = 1
+    count = 1       #Counting the number of characters
     
-    result = ""
+    result = ""     #Final string variable
     
     for i in range(1, length):
         if s[i] == s[i-1]:
